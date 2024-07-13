@@ -1,0 +1,472 @@
+The target system is: Buildroot - 1 - armv7l
+The host system is: Linux - 6.5.0-35-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-gcc 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-Os;-g0
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/3.16.9/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-g++ 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-Os;-g0
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/3.16.9/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5dd7a/fast && make[2]: Entering directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_5dd7a.dir/build.make CMakeFiles/cmTC_5dd7a.dir/build
+make[3]: Entering directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5dd7a.dir/testCCompiler.c.o
+/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-gcc --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -g0   -DNDEBUG   -o CMakeFiles/cmTC_5dd7a.dir/testCCompiler.c.o   -c /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5dd7a
+/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dd7a.dir/link.txt --verbose=1
+/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-gcc --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -g0   -DNDEBUG    CMakeFiles/cmTC_5dd7a.dir/testCCompiler.c.o  -o cmTC_5dd7a 
+make[3]: Leaving directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2ca16/fast && make[2]: Entering directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_2ca16.dir/build.make CMakeFiles/cmTC_2ca16.dir/build
+make[3]: Entering directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o
+/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-gcc --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -g0   -DNDEBUG   -v -o CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o   -c /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/asdk-linux-gcc
+Target: arm-linux-uclibcgnueabi
+Configured with: Realtek SDK Builder release 10
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20220117 (Realtek ASDK-10.3.1 Build 3678) 
+COLLECT_GCC_OPTIONS='-mfpu=auto' '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd'
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/cc1 -quiet -v -imultilib v7ve+neon/hard -iprefix /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/ -isysroot /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot -mlittle-endian -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfpu=auto -mabi=aapcs-linux -mfpu=neon-vfpv4 -marm -mfloat-abi=hard -mcpu=cortex-a7 -mtls-dialect=gnu -mlibarch=armv7ve+simd -march=armv7ve+simd -auxbase-strip CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o -g0 -Os -version -fstack-protector-strong -fstrict-aliasing -fstrict-overflow -fPIE -o /tmp/ccoGVQI9.s
+GNU C17 (Realtek ASDK-10.3.1 Build 3678) version 10.3.1 20220117 (arm-linux-uclibcgnueabi)
+	compiled by GNU C version 8.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version 282da01-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include"
+ignoring nonexistent directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/local/include"
+ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed"
+ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include
+End of search list.
+GNU C17 (Realtek ASDK-10.3.1 Build 3678) version 10.3.1 20220117 (arm-linux-uclibcgnueabi)
+	compiled by GNU C version 8.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version 282da01-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 5757636027d3bded77ac38d65e65fafe
+COLLECT_GCC_OPTIONS= '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd'
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/bin/as -v -mfpu=neon-vfpv4 -march=armv7ve -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o /tmp/ccoGVQI9.s
+GNU assembler version 2.35.2 (arm-linux-uclibcgnueabi) using BFD version (Realtek ASDK-10.3.1 Build 3678) 2.35.2.20210110
+COMPILER_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/bin/
+LIBRARY_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS= '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd'
+Linking C executable cmTC_2ca16
+/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ca16.dir/link.txt --verbose=1
+/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-gcc --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -g0   -DNDEBUG   -v CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o  -o cmTC_2ca16 
+Using built-in specs.
+COLLECT_GCC=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/asdk-linux-gcc
+COLLECT_LTO_WRAPPER=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/lto-wrapper
+Target: arm-linux-uclibcgnueabi
+Configured with: Realtek SDK Builder release 10
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20220117 (Realtek ASDK-10.3.1 Build 3678) 
+COMPILER_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/bin/
+LIBRARY_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mfpu=auto' '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'cmTC_2ca16' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd'
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/collect2 -plugin /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/liblto_plugin.so -plugin-opt=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpiwxC7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -pie -o cmTC_2ca16 /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/Scrt1.o /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/crti.o /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/crtbeginS.o -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1 -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/crtendS.o /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mfpu=auto' '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'cmTC_2ca16' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd'
+make[3]: Leaving directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include]
+    add: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed]
+    add: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include]
+    add: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include]
+  collapse include dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed]
+  collapse include dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include]
+  collapse include dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include]
+  implicit include dirs: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(asdk-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_2ca16/fast && make[2]: Entering directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_2ca16.dir/build.make CMakeFiles/cmTC_2ca16.dir/build]
+  ignore line: [make[3]: Entering directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-gcc --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -g0   -DNDEBUG   -v -o CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o   -c /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/asdk-linux-gcc]
+  ignore line: [Target: arm-linux-uclibcgnueabi]
+  ignore line: [Configured with: Realtek SDK Builder release 10]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.1 20220117 (Realtek ASDK-10.3.1 Build 3678) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfpu=auto' '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd']
+  ignore line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/cc1 -quiet -v -imultilib v7ve+neon/hard -iprefix /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/ -isysroot /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot -mlittle-endian -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfpu=auto -mabi=aapcs-linux -mfpu=neon-vfpv4 -marm -mfloat-abi=hard -mcpu=cortex-a7 -mtls-dialect=gnu -mlibarch=armv7ve+simd -march=armv7ve+simd -auxbase-strip CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o -g0 -Os -version -fstack-protector-strong -fstrict-aliasing -fstrict-overflow -fPIE -o /tmp/ccoGVQI9.s]
+  ignore line: [GNU C17 (Realtek ASDK-10.3.1 Build 3678) version 10.3.1 20220117 (arm-linux-uclibcgnueabi)]
+  ignore line: [	compiled by GNU C version 8.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version 282da01-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include"]
+  ignore line: [ignoring nonexistent directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include]
+  ignore line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed]
+  ignore line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include]
+  ignore line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Realtek ASDK-10.3.1 Build 3678) version 10.3.1 20220117 (arm-linux-uclibcgnueabi)]
+  ignore line: [	compiled by GNU C version 8.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version 282da01-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 5757636027d3bded77ac38d65e65fafe]
+  ignore line: [COLLECT_GCC_OPTIONS= '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd']
+  ignore line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/bin/as -v -mfpu=neon-vfpv4 -march=armv7ve -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o /tmp/ccoGVQI9.s]
+  ignore line: [GNU assembler version 2.35.2 (arm-linux-uclibcgnueabi) using BFD version (Realtek ASDK-10.3.1 Build 3678) 2.35.2.20210110]
+  ignore line: [COMPILER_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS= '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd']
+  ignore line: [Linking C executable cmTC_2ca16]
+  ignore line: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ca16.dir/link.txt --verbose=1]
+  ignore line: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-gcc --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -g0   -DNDEBUG   -v CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o  -o cmTC_2ca16 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/asdk-linux-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/lto-wrapper]
+  ignore line: [Target: arm-linux-uclibcgnueabi]
+  ignore line: [Configured with: Realtek SDK Builder release 10]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.1 20220117 (Realtek ASDK-10.3.1 Build 3678) ]
+  ignore line: [COMPILER_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfpu=auto' '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'cmTC_2ca16' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd']
+  link line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/collect2 -plugin /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/liblto_plugin.so -plugin-opt=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpiwxC7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -pie -o cmTC_2ca16 /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/Scrt1.o /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/crti.o /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/crtbeginS.o -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1 -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/crtendS.o /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/crtn.o]
+    arg [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpiwxC7.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2ca16] ==> ignore
+    arg [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/Scrt1.o] ==> ignore
+    arg [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/crti.o] ==> ignore
+    arg [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/crtbeginS.o] ==> ignore
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard]
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard]
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard]
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1]
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc]
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib]
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib]
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib]
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [CMakeFiles/cmTC_2ca16.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/crtendS.o] ==> ignore
+    arg [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/crtn.o] ==> ignore
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/lib/v7ve+neon/hard]
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard]
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard]
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1]
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc]
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/lib]
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib]
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/lib/v7ve+neon/hard;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/lib;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_79347/fast && make[2]: Entering directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_79347.dir/build.make CMakeFiles/cmTC_79347.dir/build
+make[3]: Entering directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_79347.dir/testCXXCompiler.cxx.o
+/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-g++ --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -g0   -DNDEBUG   -o CMakeFiles/cmTC_79347.dir/testCXXCompiler.cxx.o -c /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_79347
+/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79347.dir/link.txt --verbose=1
+/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-g++ --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -g0   -DNDEBUG    CMakeFiles/cmTC_79347.dir/testCXXCompiler.cxx.o  -o cmTC_79347 
+make[3]: Leaving directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c9bcd/fast && make[2]: Entering directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_c9bcd.dir/build.make CMakeFiles/cmTC_c9bcd.dir/build
+make[3]: Entering directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o
+/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-g++ --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -g0   -DNDEBUG   -v -o CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o -c /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/asdk-linux-g++
+Target: arm-linux-uclibcgnueabi
+Configured with: Realtek SDK Builder release 10
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20220117 (Realtek ASDK-10.3.1 Build 3678) 
+COLLECT_GCC_OPTIONS='-mfpu=auto' '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd'
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/cc1plus -quiet -v -imultilib v7ve+neon/hard -iprefix /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/ -isysroot /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot -D_GNU_SOURCE -mlittle-endian -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfpu=auto -mabi=aapcs-linux -mfpu=neon-vfpv4 -marm -mfloat-abi=hard -mcpu=cortex-a7 -mtls-dialect=gnu -mlibarch=armv7ve+simd -march=armv7ve+simd -auxbase-strip CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o -g0 -Os -version -fstack-protector-strong -fstrict-aliasing -fstrict-overflow -fPIE -o /tmp/ccksts67.s
+GNU C++14 (Realtek ASDK-10.3.1 Build 3678) version 10.3.1 20220117 (arm-linux-uclibcgnueabi)
+	compiled by GNU C version 8.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version 282da01-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1"
+ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1/arm-linux-uclibcgnueabi/v7ve+neon/hard"
+ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1/backward"
+ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include"
+ignoring nonexistent directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/local/include"
+ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed"
+ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1/arm-linux-uclibcgnueabi/v7ve+neon/hard
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1/backward
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include
+End of search list.
+GNU C++14 (Realtek ASDK-10.3.1 Build 3678) version 10.3.1 20220117 (arm-linux-uclibcgnueabi)
+	compiled by GNU C version 8.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version 282da01-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 71cc3a4d1ab34cde8cc031ca531d8fde
+COLLECT_GCC_OPTIONS= '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd'
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/bin/as -v -mfpu=neon-vfpv4 -march=armv7ve -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccksts67.s
+GNU assembler version 2.35.2 (arm-linux-uclibcgnueabi) using BFD version (Realtek ASDK-10.3.1 Build 3678) 2.35.2.20210110
+COMPILER_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/bin/
+LIBRARY_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS= '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd'
+Linking CXX executable cmTC_c9bcd
+/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9bcd.dir/link.txt --verbose=1
+/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-g++ --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -g0   -DNDEBUG   -v CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c9bcd 
+Using built-in specs.
+COLLECT_GCC=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/asdk-linux-g++
+COLLECT_LTO_WRAPPER=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/lto-wrapper
+Target: arm-linux-uclibcgnueabi
+Configured with: Realtek SDK Builder release 10
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20220117 (Realtek ASDK-10.3.1 Build 3678) 
+COMPILER_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/bin/
+LIBRARY_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mfpu=auto' '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'cmTC_c9bcd' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd'
+ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/collect2 -plugin /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/liblto_plugin.so -plugin-opt=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXjoL5a.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -pie -o cmTC_c9bcd /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/Scrt1.o /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/crti.o /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/crtbeginS.o -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1 -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/crtendS.o /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mfpu=auto' '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'cmTC_c9bcd' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd'
+make[3]: Leaving directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1]
+    add: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1/arm-linux-uclibcgnueabi/v7ve+neon/hard]
+    add: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1/backward]
+    add: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include]
+    add: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed]
+    add: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include]
+    add: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include/c++/10.3.1]
+  collapse include dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1/arm-linux-uclibcgnueabi/v7ve+neon/hard] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include/c++/10.3.1/arm-linux-uclibcgnueabi/v7ve+neon/hard]
+  collapse include dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1/backward] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include/c++/10.3.1/backward]
+  collapse include dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include]
+  collapse include dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed]
+  collapse include dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include]
+  collapse include dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include]
+  implicit include dirs: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include/c++/10.3.1;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include/c++/10.3.1/arm-linux-uclibcgnueabi/v7ve+neon/hard;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include/c++/10.3.1/backward;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(asdk-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_c9bcd/fast && make[2]: Entering directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_c9bcd.dir/build.make CMakeFiles/cmTC_c9bcd.dir/build]
+  ignore line: [make[3]: Entering directory '/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/build/gaia/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-g++ --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -g0   -DNDEBUG   -v -o CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o -c /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/asdk-linux-g++]
+  ignore line: [Target: arm-linux-uclibcgnueabi]
+  ignore line: [Configured with: Realtek SDK Builder release 10]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.1 20220117 (Realtek ASDK-10.3.1 Build 3678) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfpu=auto' '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd']
+  ignore line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/cc1plus -quiet -v -imultilib v7ve+neon/hard -iprefix /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/ -isysroot /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot -D_GNU_SOURCE -mlittle-endian -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfpu=auto -mabi=aapcs-linux -mfpu=neon-vfpv4 -marm -mfloat-abi=hard -mcpu=cortex-a7 -mtls-dialect=gnu -mlibarch=armv7ve+simd -march=armv7ve+simd -auxbase-strip CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o -g0 -Os -version -fstack-protector-strong -fstrict-aliasing -fstrict-overflow -fPIE -o /tmp/ccksts67.s]
+  ignore line: [GNU C++14 (Realtek ASDK-10.3.1 Build 3678) version 10.3.1 20220117 (arm-linux-uclibcgnueabi)]
+  ignore line: [	compiled by GNU C version 8.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version 282da01-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1"]
+  ignore line: [ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1/arm-linux-uclibcgnueabi/v7ve+neon/hard"]
+  ignore line: [ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1/backward"]
+  ignore line: [ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include"]
+  ignore line: [ignoring nonexistent directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/../../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1]
+  ignore line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1/arm-linux-uclibcgnueabi/v7ve+neon/hard]
+  ignore line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include/c++/10.3.1/backward]
+  ignore line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include]
+  ignore line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed]
+  ignore line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/include]
+  ignore line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Realtek ASDK-10.3.1 Build 3678) version 10.3.1 20220117 (arm-linux-uclibcgnueabi)]
+  ignore line: [	compiled by GNU C version 8.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version 282da01-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 71cc3a4d1ab34cde8cc031ca531d8fde]
+  ignore line: [COLLECT_GCC_OPTIONS= '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd']
+  ignore line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/bin/as -v -mfpu=neon-vfpv4 -march=armv7ve -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccksts67.s]
+  ignore line: [GNU assembler version 2.35.2 (arm-linux-uclibcgnueabi) using BFD version (Realtek ASDK-10.3.1 Build 3678) 2.35.2.20210110]
+  ignore line: [COMPILER_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS= '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd']
+  ignore line: [Linking CXX executable cmTC_c9bcd]
+  ignore line: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9bcd.dir/link.txt --verbose=1]
+  ignore line: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-g++ --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -g0   -DNDEBUG   -v CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c9bcd ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/asdk-linux-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/lto-wrapper]
+  ignore line: [Target: arm-linux-uclibcgnueabi]
+  ignore line: [Configured with: Realtek SDK Builder release 10]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.1 20220117 (Realtek ASDK-10.3.1 Build 3678) ]
+  ignore line: [COMPILER_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/:/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfpu=auto' '-EL' '-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-fstack-protector-strong' '-fstrict-aliasing' '-fstrict-overflow' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-g0' '-D' 'NDEBUG' '-v' '-o' 'cmTC_c9bcd' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd']
+  link line: [ /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/collect2 -plugin /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/liblto_plugin.so -plugin-opt=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXjoL5a.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -pie -o cmTC_c9bcd /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/Scrt1.o /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/crti.o /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/crtbeginS.o -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1 -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib -L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/crtendS.o /realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/crtn.o]
+    arg [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../libexec/gcc/arm-linux-uclibcgnueabi/10.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccXjoL5a.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c9bcd] ==> ignore
+    arg [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/Scrt1.o] ==> ignore
+    arg [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/crti.o] ==> ignore
+    arg [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/crtbeginS.o] ==> ignore
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard]
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard]
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard]
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1]
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc]
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib]
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib]
+    arg [-L/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib] ==> dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib]
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [CMakeFiles/cmTC_c9bcd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/crtendS.o] ==> ignore
+    arg [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/crtn.o] ==> ignore
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib/v7ve+neon/hard] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/lib/v7ve+neon/hard]
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard]
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard]
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1]
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc]
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/bin/../lib/gcc/arm-linux-uclibcgnueabi/10.3.1/../../../../arm-linux-uclibcgnueabi/lib] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/lib]
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib]
+  collapse library dir [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib] ==> [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/lib/v7ve+neon/hard;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/lib;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+

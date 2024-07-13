@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-g++")
+set(CMAKE_CXX_COMPILER "../rts3917_base/host/bin/asdk-linux-g++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "10.3.1")
@@ -19,11 +19,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-ar")
-set(CMAKE_CXX_COMPILER_AR "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-gcc-ar")
-set(CMAKE_RANLIB "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-gcc-ranlib")
-set(CMAKE_LINKER "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/asdk-linux-ld")
+set(CMAKE_AR "../rts3917_base/host/bin/asdk-linux-ar")
+set(CMAKE_CXX_COMPILER_AR "../rts3917_base/host/bin/asdk-linux-gcc-ar")
+set(CMAKE_RANLIB "../rts3917_base/host/bin/asdk-linux-ranlib")
+set(CMAKE_CXX_COMPILER_RANLIB "../rts3917_base/host/bin/asdk-linux-gcc-ranlib")
+set(CMAKE_LINKER "../rts3917_base/host/bin/asdk-linux-ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -82,7 +82,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include/c++/10.3.1;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include/c++/10.3.1/arm-linux-uclibcgnueabi/v7ve+neon/hard;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include/c++/10.3.1/backward;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "../../toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include/c++/10.3.1;../../toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include/c++/10.3.1/arm-linux-uclibcgnueabi/v7ve+neon/hard;../../toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include/c++/10.3.1/backward;../../toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include;../../toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed;../../toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/include;../rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/lib/v7ve+neon/hard;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/lib;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib;/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "../../toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/lib/v7ve+neon/hard;../rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/v7ve+neon/hard;../rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/v7ve+neon/hard;../../toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1;../../toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc;../../toolchain/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/lib;../rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib;../rts3917_base/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

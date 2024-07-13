@@ -42,19 +42,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake
+CMAKE_COMMAND = ../rts3917_base/host/bin/cmake
 
 # The command to remove a file.
-RM = /realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -E remove -f
+RM = ../rts3917_base/host/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /realhome/realtek_rts3917/example
+CMAKE_SOURCE_DIR = .
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /realhome/realtek_rts3917/example
+CMAKE_BINARY_DIR = .
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /realhome/realtek_rts3917/example
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@echo "Running CMake to regenerate build system..."
-	/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	../rts3917_base/host/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -73,7 +73,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@echo "No interactive CMake dialog available..."
-	/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	../rts3917_base/host/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -83,9 +83,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /realhome/realtek_rts3917/example/CMakeFiles /realhome/realtek_rts3917/example/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start ./CMakeFiles ./CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /realhome/realtek_rts3917/example/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start ./CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -56,7 +56,7 @@ CMAKE_BINARY_DIR = /realhome/realtek_rts3917/example
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/gaia.dir/all
+all: CMakeFiles/example.dir/all
 
 .PHONY : all
 
@@ -66,36 +66,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/gaia.dir/clean
+clean: CMakeFiles/example.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/gaia.dir
+# Target rules for target CMakeFiles/example.dir
 
 # All Build rule for target.
-CMakeFiles/gaia.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaia.dir/build.make CMakeFiles/gaia.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaia.dir/build.make CMakeFiles/gaia.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/realhome/realtek_rts3917/example/CMakeFiles --progress-num=1,2 "Built target gaia"
-.PHONY : CMakeFiles/gaia.dir/all
+CMakeFiles/example.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/realhome/realtek_rts3917/example/CMakeFiles --progress-num=1,2 "Built target example"
+.PHONY : CMakeFiles/example.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/gaia.dir/rule: cmake_check_build_system
+CMakeFiles/example.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /realhome/realtek_rts3917/example/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gaia.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /realhome/realtek_rts3917/example/CMakeFiles 0
-.PHONY : CMakeFiles/gaia.dir/rule
+.PHONY : CMakeFiles/example.dir/rule
 
 # Convenience name for target.
-gaia: CMakeFiles/gaia.dir/rule
+example: CMakeFiles/example.dir/rule
 
-.PHONY : gaia
+.PHONY : example
 
 # clean rule for target.
-CMakeFiles/gaia.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaia.dir/build.make CMakeFiles/gaia.dir/clean
-.PHONY : CMakeFiles/gaia.dir/clean
+CMakeFiles/example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/clean
+.PHONY : CMakeFiles/example.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

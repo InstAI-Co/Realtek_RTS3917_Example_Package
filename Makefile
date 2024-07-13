@@ -59,41 +59,6 @@ CMAKE_BINARY_DIR = /realhome/realtek_rts3917/example
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@echo "Installing the project stripped..."
-	/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@echo "Installing the project stripped..."
-	/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@echo "No interactive CMake dialog available..."
-	/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
-# Special rule for the target install
-install: preinstall
-	@echo "Install the project..."
-	/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@echo "Install the project..."
-	/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@echo "Running CMake to regenerate build system..."
@@ -105,27 +70,16 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@echo "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target edit_cache
+edit_cache:
+	@echo "No interactive CMake dialog available..."
+	/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
 
-.PHONY : list_install_components/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@echo "Installing only the local directory..."
-	/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@echo "Installing only the local directory..."
-	/realhome/realtek_rts3917/rts39xx_sdk_v5.1/out/rts3917_base/host/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -160,17 +114,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named gaia
+# Target rules for targets named example
 
 # Build rule for target.
-gaia: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gaia
-.PHONY : gaia
+example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example
+.PHONY : example
 
 # fast build rule for target.
-gaia/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaia.dir/build.make CMakeFiles/gaia.dir/build
-.PHONY : gaia/fast
+example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
+.PHONY : example/fast
 
 main.o: main.c.o
 
@@ -178,7 +132,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaia.dir/build.make CMakeFiles/gaia.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -187,7 +141,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaia.dir/build.make CMakeFiles/gaia.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -196,7 +150,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaia.dir/build.make CMakeFiles/gaia.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -205,13 +159,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
-	@echo "... edit_cache"
-	@echo "... gaia"
-	@echo "... install"
 	@echo "... rebuild_cache"
-	@echo "... list_install_components"
-	@echo "... install/local"
+	@echo "... example"
+	@echo "... edit_cache"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,3 +1,0 @@
-/usr/bin/gaia
-/etc/init.d/S36gaia
-/etc/gaia.json

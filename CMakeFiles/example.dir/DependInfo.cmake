@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/realhome/realtek_rts3917/example/main.c" "/realhome/realtek_rts3917/example/CMakeFiles/gaia.dir/main.c.o"
+  "/realhome/realtek_rts3917/example/main.c" "/realhome/realtek_rts3917/example/CMakeFiles/example.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

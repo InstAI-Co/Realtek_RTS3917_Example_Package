@@ -9,5 +9,6 @@
 #include <stdio.h>
 int main()
 {
-	printf("Test program");
+	printf("This is the test cross-compiling program on RTS3917\n");
+	return 0;
 }

@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "6.5.0-35-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("../rts3917_base/host/share/buildroot/toolchainfile.cmake")
+include("==Current_Project_Dir==/../rts3917_base/host/share/buildroot/toolchainfile.cmake")
 
 set(CMAKE_SYSTEM "Buildroot-1")
 set(CMAKE_SYSTEM_NAME "Buildroot")
